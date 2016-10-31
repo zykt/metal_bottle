@@ -14,8 +14,8 @@ app = Bottle()
 
 @app.route('/')
 def default():
-    names = ['Iron Maiden', 'Alrakis', 'Brocas Helm', 'Ea']
-    return template('index', names=names)
+    bands = db.all()
+    return template('index', bands)
 
 
 @app.route('/<band_name>')
