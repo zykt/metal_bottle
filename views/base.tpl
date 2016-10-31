@@ -8,8 +8,11 @@
     <title>metal bottle</title>
 </head>
 <body>
-    <p><a href="/"><strong>home</strong></a></p>
-    <p>hello, world</p>
+    <div class="container">
+        <p><a href="/"><strong>home</strong></a></p>
+        <p>hello, world</p>
+    </div>
+
     {{!base}}
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
