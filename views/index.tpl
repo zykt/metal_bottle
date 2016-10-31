@@ -4,7 +4,6 @@
     <li>
         <div class="collapsible-header"> <a href="{{name}}"> {{name}} </a> </div>
         <div class="collapsible-body"> <p> info about {{name}} </p> </div>
-
     </li>
 % end
 </ul>
