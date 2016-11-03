@@ -6,9 +6,9 @@
   <title>metal bottle</title>
 </head>
 <body>
-  <div class="container">
-    <p><a href="/"><strong>home</strong></a></p>
-    <p>hello, world</p>
+  <div class="container z-depth-1 blue-grey lighten-4">
+    <h2><a href="/"><strong>home</strong></a></h2>
+    <h3>hello, world</h3>
   </div>
 
   {{!base}}
